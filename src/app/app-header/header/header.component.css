@@ -1,0 +1,10 @@
+.navnar{
+  position: relative;
+}
+.nav-item:hover{
+  font-weight: bold;
+}
+.logout-btn{
+  position: absolute;
+  right: 50px;
+}

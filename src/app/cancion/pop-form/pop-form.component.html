@@ -1,0 +1,16 @@
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="container-input">
+      <label for="exampleInputEmail1" class="inp-text">Usuarios</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Ingrese los usuarios por favor ejemplo xiomara,alex,juan"  #input (keyup)="keyup(input.value)">
+    </div>
+    <div class="container-buttons">
+      <button type="button" class="btn btn-primary button-accept" (click)="accept()">Aceptar</button>
+      <button type="button" class="btn btn-dark" (click)="cancel()">Cancelar</button>
+    </div>
+  </div>
+
+</div>
